@@ -1,0 +1,76 @@
+/* ADD YOUR STYLES HERE */
+.img-container {
+	text-align: center;
+}
+
+img {
+	padding: 1em;
+}
+
+.inline {
+	display: inline-block;
+	vertical-align: 
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.button {
+	color: white;
+	background-color: #E6848A;
+	text-decoration: none;
+	border-radius: 6px;
+	display: inline-block;
+	border: none;
+	list-style-type: none;
+}
+
+.sml-button {
+	padding: .3em .8em;
+}
+
+.med-button {
+	padding: .6em 1.5em;
+	font-size: 1.25em;
+}
+
+.lrg-button {
+	padding: 1.5em 3em;
+	font-size: 1.5em;
+}
+
+.nav-container {
+	background-color: #E6848A;
+	border-radius: 6px;
+	width: ;
+	display: block;
+	margin: 0 auto;
+}
+
+.nav-button {
+	margin: 0;
+	border-radius: 0;
+
+}
+
+.nav-button a {
+	color: white;
+	text-decoration: none;
+	padding: .8em;
+}
+
+li a:hover {
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
