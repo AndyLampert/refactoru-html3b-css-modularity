@@ -70,7 +70,8 @@ img,
   padding: .5em 2em;
 }
 
-li a:hover {
+input:hover,
+.button:hover {
   background-color: blue;
 }
 
@@ -80,4 +81,47 @@ li a:hover {
 
 .img-7 {
   padding: 0;
+}
+
+.page-li {
+  display: inline-block;
+  list-style-type: none;
+  padding: .4em;
+  font-size: 120%;
+}
+.page-li a {
+  color: #E6848A;
+}
+
+.page-end a {
+  text-decoration: none;
+}
+
+.active-page {
+  color: grey;
+}
+
+.page-link {
+  text-decoration: none;
+  border-bottom: 0;
+}
+.page-link:hover {
+  background-color: white;
+}
+
+li.page-li {
+  border-bottom: 3px solid #E6848A;
+  margin: .2em;
+}
+
+li.page-end {
+  border-bottom: 0;
+}
+
+.col-1-img {
+  display: block;
+}
+
+.user-img {
+  float: left;
 }

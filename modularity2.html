@@ -143,16 +143,16 @@
 				<p class="instruction-text">Style a pagination control for navigating through pages of search results.</p>
 				<div class="instruction-answer">
 					<!-- Edit here -->
-					<ol>
-						<li><a href="#">prev</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">6</a></li>
-						<li><a href="#">7</a></li>
-						<li><span>8</span></li>
-						<li><a href="#">9</a></li>
-						<li><a href="#">10</a></li>
-						<li><a href="#">11</a></li>
-						<li><a href="#">next</a></li>
+					<ol class="page-li-container">
+						<li class="page-li page-end page-link"><a href="#">prev</a></li>
+						<li class="page-li"><a class="page-link" href="#">5</a></li>
+						<li class="page-li"><a class="page-link" href="#">6</a></li>
+						<li class="page-li"><a class="page-link" href="#">7</a></li>
+						<li class="page-li"><span class="active-page">8</span></li>
+						<li class="page-li"><a class="page-link" href="#">9</a></li>
+						<li class="page-li"><a class="page-link" href="#">10</a></li>
+						<li class="page-li"><a class="page-link" href="#">11</a></li>
+						<li class="page-li page-end page-link"><a href="#">next</a></li>
 					</ol>
 					<!-- End editable area -->
 				</div>
@@ -164,9 +164,9 @@
 				<p class="instruction-text">Style a stream of user comments.</p>
 				<div class="instruction-answer">
 					<!-- Edit here -->
-					<div>
-						<div>
-							<img src="http://gravatar.com/avatar/0?d=identicon">
+					<div class="comment-main-col">
+						<div class="user-img">
+							<img class="col-1-img" src="http://gravatar.com/avatar/0?d=identicon">
 						</div>
 						<div>
 							<strong>@metaraine</strong>
@@ -175,9 +175,9 @@
 						</div>
 					</div>
 
-					<div>
-						<div>
-							<img src="http://gravatar.com/avatar/1?d=identicon">
+					<div class="comment-main-col">
+						<div class="user-img">
+							<img class="col-1-img" src="http://gravatar.com/avatar/1?d=identicon">
 						</div>
 						<div>
 							<strong>@seandaken</strong>
@@ -186,16 +186,16 @@
 						</div>
 					</div>
 
-					<div>
+					<div class="comment-main-col">
 						<div>
-							<img src="http://gravatar.com/avatar/0?d=identicon">
+							<img class="col-1-img" src="http://gravatar.com/avatar/0?d=identicon">
 						</div>
 						<div>
 							<strong>@metaraine</strong>
 							<time>2 hours ago</time>
 							<p>How about we have the RefactorU student climb Bear Peak each morning before class?</p>
 
-							<div>
+							<div class="comment-sub-col">
 								<div>
 									<img src="http://gravatar.com/avatar/1?d=identicon&s=60">
 								</div>
@@ -206,7 +206,7 @@
 								</div>
 							</div>
 
-							<div>
+							<div class="comment-sub-col">
 								<div>
 									<img src="http://gravatar.com/avatar/2?d=identicon&s=60">
 								</div>
