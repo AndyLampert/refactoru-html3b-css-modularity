@@ -114,12 +114,31 @@ li.page-li {
   margin: .2em;
 }
 
+li.page-li.active {
+  border-bottom: 3px solid grey;
+  color: blue;
+}
+
 li.page-end {
   border-bottom: 0;
 }
 
 .col-1-img {
-  display: block;
+  padding-top: 0;
+}
+
+.col-2-img {
+  padding-top: 0;
+}
+
+.comment-main-col {
+  overflow: hidden;
+}
+
+.comment-sub-col {
+  overflow: hidden;
+  margin-left: 2em;
+  margin-left: 7em;
 }
 
 .user-img {
