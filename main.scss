@@ -1,0 +1,92 @@
+/* ADD YOUR STYLES HERE */
+.img-container {
+	text-align: center;
+}
+.img-container img,
+.img-container .inline {
+	vertical-align: top;
+}
+
+img,
+.inline {
+	padding: 1em;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.button {
+	color: white;
+	background-color: #E6848A;
+	text-decoration: none;
+	border-radius: 6px;
+	display: inline-block;
+	border: none;
+	list-style-type: none;
+}
+
+.sml-button {
+	padding: .3em .8em;
+}
+
+.med-button {
+	padding: .6em 1.5em;
+	font-size: 1.25em;
+}
+
+.lrg-button {
+	padding: 1.5em 3em;
+	font-size: 1.5em;
+}
+
+.nav-container {
+	background-color: #E6848A;
+	border-radius: 6px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+	
+}
+
+.nav-container li {
+	padding: 0;
+}
+
+.nav-button {
+	border-radius: 0;
+	a {
+		color: white;
+		text-decoration: none;
+		display: inline-block;
+		text-align: center;
+		padding: .5em 2em;
+	}
+}
+
+li a:hover {
+	background-color: blue;
+}
+
+
+.img-7-container {
+	margin: 5em 0;
+}
+.img-7 {
+	padding: 0;
+
+}
+
+
+
+
+
+
+
+
