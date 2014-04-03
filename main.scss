@@ -109,7 +109,7 @@ input:hover,
 	text-decoration: none;
 	border-bottom: 0;
 	&:hover {
-	background-color: white;
+		background-color: white;
 	}
 }
 
@@ -149,8 +149,43 @@ li.page-end {
 	float: left;
 }
 
-.user-meta-data {
+.page-li-tab {
+	display: inline-block;
+	a {
+		text-decoration: none;
+	}
 }
+
+.tab-item {
+	color: blue;
+	font-weight: bold;
+	border-radius: 6px;
+	border: 1px solid black;
+	padding: .6em;
+	border-radius: 6px 6px 0 0;
+	&.active-tab {
+		border-bottom: 1px solid white;
+	}
+}
+
+.tab-content-container {
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 1em;
+	margin-top: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
